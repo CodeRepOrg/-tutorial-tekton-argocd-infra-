@@ -11,7 +11,7 @@ spec:
       app: ui
       version: v1
   template:
-    serviceAccountName: argocd-application-controller
+    # serviceAccountName: argocd-application-controller
     metadata:
       labels:
         app: ui
