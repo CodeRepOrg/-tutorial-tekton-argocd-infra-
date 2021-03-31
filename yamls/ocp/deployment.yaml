@@ -11,14 +11,13 @@ spec:
       app: ui
       version: v1
   template:
-    # serviceAccountName: argocd-application-controller
     metadata:
       labels:
         app: ui
         version: v1
     spec:
       containers:
-      - image: image-registry.openshift-image-registry.svc:5000/tekton-argocd6/app:e3ae2c1
+      - image: image-registry.openshift-image-registry.svc:5000/tekton-argocd6/app:d0a15ba
         imagePullPolicy: Always
         name: ui
         ports:
