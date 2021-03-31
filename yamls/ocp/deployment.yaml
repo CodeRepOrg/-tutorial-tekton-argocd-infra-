@@ -16,7 +16,6 @@ spec:
         app: ui
         version: v1
     spec:
-      serviceAccountName: argocd-application-controller
       containers:
       - image: image-registry.openshift-image-registry.svc:5000/tekton-argocd6/app:d0a15ba
         imagePullPolicy: Always
